@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="LOGO1.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+       <section class="about-us">
+       <div class="row">
+           <div class="about-col">
+               <h1>We are The Worlds Largest University</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iure tempora in minus nesciunt itaque quam veritatis, pariatur maiores aspernatur, ducimus placeat adipisci error nostrum. Repellendus deleniti explicabo autem voluptatem architecto inventore, laboriosam eos. Doloremque perspiciatis architecto reiciendis delectus deserunt.</p>
+               <a href="" class="hero-btn red-btn">Explore Now!</a>
+           </div>
+           <div class="about-col">
+               <img src="about us.jpg"  >
+           </div>
+       </div>
+    </section>
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus adipisci sed odio <br> incidunt quaerat doloribus nihil nobis, quisquam qui.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by Malaika Sharafat</p>
+    </section>
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navlinks.style.right ="-200px";
+    }
+</script>
+</body>
+</html>
